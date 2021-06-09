@@ -1,10 +1,16 @@
 body {
     font-family: Helvetica;
     font-size: 22px;
-    color: seashell;
+    color: RGBA(255, 245, 238, 0.6);
     background-color: black;
     opacity: 0.9;
     text-align: center;
+}
+
+footer {
+    display: block;
+    align-content: center;
+    flex-direction: column;
 }
 
 .header {
@@ -14,7 +20,7 @@ body {
     background-color: black;
     position: fixed;
     top: 0px;
-    border-bottom: 1px solid seashell;
+    border-bottom: 1px solid RGBA(255, 245, 238, 0.6);
 }
 
 .logo {
@@ -22,12 +28,14 @@ body {
     float: left;
     padding-left: 10px;
     padding-top: 10px;
+    opacity: 0.6;
 }
 
 .navigation {
     float: right;
     height: 100%;
     margin: 0 auto;
+    color: RGBA(255, 245, 238, 0.6);
 }
 
 .navigation a {
@@ -42,8 +50,7 @@ body {
     vertical-align: middle;
     height: 100%;
     text-decoration: underline;
-    color: seashell;
-    opacity: 0.9;
+    color: RGBA(255, 245, 238, 0.6);
 }
 
 .mission-container {
@@ -113,4 +120,20 @@ body {
     opacity: 1;
     width: 300px;
     margin: 15px 20px;
+}
+
+.copyright {
+    float: left;
+}
+
+#mission {
+    scroll-margin-top: 75px;
+}
+
+#featured {
+    scroll-margin-top: 75px;
+}
+
+#locations {
+    scroll-margin-top: 75px;
 }
